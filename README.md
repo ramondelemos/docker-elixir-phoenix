@@ -7,7 +7,7 @@ Uses Node.js 8.x and latest versions of Elixir, Phoenix, and PostgreSQL.
 
 To start up the development environment:
 ```bash
-sudo docker-compose up dev bash
+sudo docker-compose run --service-ports dev bash
 ```
 
 In container prompt you can test if PostgreSQL is running with credentials user: `postgres` and password: `postgres`.
