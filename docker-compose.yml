@@ -1,0 +1,21 @@
+version: "3.2"
+services:
+  db:
+    image: postgres
+    ports:
+      - 5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+
+
+  dev:
+    build: .
+    volumes:
+      - type: bind
+        source: ./app
+        target: /home/app
+    ports:
+      - "4000:4000"
+    depends_on:
+      - db
