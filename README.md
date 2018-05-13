@@ -1,7 +1,7 @@
 # docker-elixir-phoenix
-Elixir and Phoenix development environment with PostgreSQL.
+Elixir and Phoenix development environment with PostgreSQL and Docker.
 
-Uses Node.js 8.x and latest versions of Elixir, Phoenix, and PostgreSQL.
+Uses Node.js 8.x and latest versions of Elixir, Phoenix, PostgreSQL and Docker.
 
 ## Instructions
 
