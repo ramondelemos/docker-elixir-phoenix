@@ -7,6 +7,10 @@ Uses Node.js 8.x and latest versions of Elixir, Phoenix, PostgreSQL and Docker.
 
 To start up the development environment:
 ```bash
+./start.sh
+```
+or
+```bash
 sudo docker-compose run --service-ports dev bash
 ```
 
