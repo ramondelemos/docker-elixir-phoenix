@@ -5,6 +5,8 @@ Uses Node.js 8.x and latest versions of Elixir, Phoenix, PostgreSQL and Docker.
 
 ## Instructions
 
+For ease setup an `.env` file was added to configure container environment variables. You can add or remove other environment variables as needed.
+
 To start up the development environment:
 ```bash
 ./start.sh
